@@ -1,0 +1,11 @@
+<SimGroup
+   Name="Towers" >
+   <ScriptObject
+      Name="BlueCrystal"
+      Image="ToyAssets:TD_Crystal_blueSprite"
+      Frame="0" />
+   <ScriptObject
+      Name="RedCrystal"
+      Image="ToyAssets:TD_Crystal_redSprite"
+      Frame="0" />
+</SimGroup>

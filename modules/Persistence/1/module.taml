@@ -1,0 +1,9 @@
+<ModuleDefinition
+    ModuleId = "Persistence"
+    VersionId = "1"
+    Dependencies = "AppCore=1"
+    Group="TDGame"
+    ScriptFile = "persistenceModule.cs"
+    CreateFunction = "create"
+    DestroyFunction = "destroy">
+</ModuleDefinition>

@@ -1,0 +1,35 @@
+<SimGroup
+   Name="Tiles" >
+   <ScriptObject
+      Name="BlueCrystalTile"
+      Image="ToyAssets:TD_Crystal_blueSprite"
+      Frame="0" />
+   <ScriptObject
+      Name="RedCrystalTile"
+      Image="ToyAssets:TD_Crystal_redSprite"
+      Frame="0" />
+   <ScriptObject
+      Name="Red"
+      Image="FillBattle:SixColors"
+      Frame="0" />
+   <ScriptObject
+      Name="Green"
+      Image="FillBattle:SixColors"
+      Frame="1" />
+   <ScriptObject
+      Name="Blue"
+      Image="FillBattle:SixColors"
+      Frame="2" />
+   <ScriptObject
+      Name="Yellow"
+      Image="FillBattle:SixColors"
+      Frame="3" />
+   <ScriptObject
+      Name="Purple"
+      Image="FillBattle:SixColors"
+      Frame="4" />
+   <ScriptObject
+      Name="Teal"
+      Image="FillBattle:SixColors"
+      Frame="5" />
+</SimGroup>
