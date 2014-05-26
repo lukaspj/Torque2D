@@ -1,0 +1,5 @@
+<SceneWindow
+   Name="GameWindow"
+   Profile="SceneWindowProfile"
+   UseObjectInputEvents="1"
+   />

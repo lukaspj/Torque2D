@@ -59,6 +59,12 @@ ModuleDatabase.scanModules( "modules" );
 // Load AppCore module.
 ModuleDatabase.LoadExplicit( "AppCore" );
 
+/*
+$pref::T2D::TAMLSchema = "Torque2d.xsd";
+GenerateTamlSchema();
+quit();
+*/
+
 //-----------------------------------------------------------------------------
 
 function onExit()

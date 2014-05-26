@@ -1,0 +1,10 @@
+<ModuleDefinition
+    ModuleId="GameGUI"
+    VersionId="1"
+    Dependencies="AppCore=1,ToyAssets=1,Console=1,FillBattle=1"
+    Group="TDGame"
+    Description="GameGUI."
+    ScriptFile="gameGUImodule.cs"
+    CreateFunction="create"
+    DestroyFunction="destroy">
+</ModuleDefinition>
