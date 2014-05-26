@@ -1,7 +1,7 @@
 function FillBattle::create(%this)
 {
    // Load all behavior scripts.
-   exec("./scripts/RandomFillBehavior.cs");  
+   exec("./scripts/RandomFillBehavior.cs"); 
    exec("./scripts/CenterPositionBehavior.cs"); 
    exec("./scripts/ClickableTilesBehavior.cs"); 
    exec("./scripts/ButtonBehavior.cs");
@@ -21,7 +21,7 @@ function FillBattle::destroy(%this)
 }
 
 function FillBattle::loadGame(%this)
-{
+{   
    exec("./objects/guiprofiles.cs");
    %window = TamlRead("./objects/SceneWindow.taml");
    Canvas.setContent(%window);

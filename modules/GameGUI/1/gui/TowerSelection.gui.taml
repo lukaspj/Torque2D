@@ -7,9 +7,27 @@
     Extent="1024 768"
     MinExtent="320 320"
     Visible="1"
-    Active="false">
+    Active="true">
 
-    <!-- Start Game-->
+    <GuiButtonCtrl
+    Name="Tower2Button"
+        Profile="BlueButtonProfile"
+    Text="Tower2"
+    ButtonType="PushButton"
+    canSaveDynamicFields="0"
+        isContainer="0"
+        HorizSizing="relative"
+        VertSizing="relative"
+    Position="600 720"
+    Extent="100 30"
+    MinExtent="50 15"
+        canSave="1"
+        Visible="1"
+        Active="1"
+        hovertime="1000"
+        groupNum="-1"
+        useMouseEvents="1" />
+   
     <GuiButtonCtrl
     Name="Tower1Button"
         Profile="BlueButtonProfile"
@@ -19,9 +37,9 @@
         isContainer="0"
         HorizSizing="relative"
         VertSizing="relative"
-    Position="412 369"
-    Extent="200 30"
-    MinExtent="100 15"
+    Position="712 720"
+    Extent="100 30"
+    MinExtent="50 15"
         canSave="1"
         Visible="1"
         Active="1"

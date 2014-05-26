@@ -2,4 +2,4 @@ if(!isObject(GuiContainerProfile)) new GuiControlProfile (GuiContainerProfile : 
 {
    Modal = false;
    fillColor = "0 0 0 0";
-}
+};

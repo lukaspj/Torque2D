@@ -16,8 +16,11 @@ function ClickableTilesBehavior::onTouchUp(%this, %touchID, %worldPosition)
       
    for(%i = 0; %i < %spriteCount; %i++)
    {
-     TileBoard.selectSpriteId(getWord(%sprites, %i));
-     TileBoard.setSpriteImageFrame($SelectedTurretType);
-     TileBoard.deselectSprite();
+      %this.owner.selectSpriteId(getWord(%sprites, %i));
+      if(%this.owner.getSpriteImage() $= $SelectedTurretType.Image)
+         %this.owner.setSpriteImageFrame($SelectedTurretType.Frame);
+      else
+         %this.owner.setSpriteImage($SelectedTurretType.Image, $SelectedTurretType.Frame);
+      %this.owner.deselectSprite();
    }
 }

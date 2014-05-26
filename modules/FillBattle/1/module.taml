@@ -1,7 +1,7 @@
 <ModuleDefinition
     ModuleId = "FillBattle"
     VersionId = "1"
-    Dependencies = "AppCore=1"
+    Dependencies = "AppCore=1,Persistence=1"
     Group="TDGame"
     ScriptFile = "module.cs"
     CreateFunction = "create"

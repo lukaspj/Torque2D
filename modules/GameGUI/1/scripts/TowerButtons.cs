@@ -1,4 +1,15 @@
-function GameUIControl::onTouchUp(%this, %touchID, %worldPosition)
+function Tower1Button::onClick(%this)
 {
-   echo("Wth? :(");
+   $SelectedTurretType = new ScriptObject(){
+      Image = "ToyAssets:TD_Crystal_blueSprite";
+      Frame = 0;
+   };
+}
+
+function Tower2Button::onClick(%this)
+{
+   $SelectedTurretType = new ScriptObject(){
+      Image = "ToyAssets:TD_Crystal_redSprite";
+      Frame = 0;
+   };
 }

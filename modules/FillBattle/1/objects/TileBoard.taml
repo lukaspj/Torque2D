@@ -4,9 +4,10 @@
    DefaultSpriteStride="5 5"
    BatchLayout="rect"
    UseInputEvents="true"
+   SceneLayer="10"
 >
    <CompositeSprite.Behaviors>
-      <RandomFillBehavior />
+      <LevelFillBehavior />
       <CenterPositionBehavior />
       <ClickableTilesBehavior />
    </CompositeSprite.Behaviors>
